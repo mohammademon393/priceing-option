@@ -5,6 +5,7 @@ import DaisyNav from './component/DaisyNav/DaisyNav';
 import { Suspense } from 'react';
 import PriceingOptions from './component/PriceingOption/PriceingOptions';
 import ReChart from './component/ReCharts/ReChart';
+import BarChats from './component/BarChat/BarChats';
 
 const pricePromise = fetch('priceing.json').then(res => res.json());
 
@@ -30,6 +31,7 @@ function App() {
 
 
         <ReChart></ReChart>
+        <BarChats></BarChats>
       </main>
 
       <footer></footer>
