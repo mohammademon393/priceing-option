@@ -26,7 +26,7 @@ const Navbar = () => {
           )}
 
           <ul className={`md:hidden bg-amber-300 absolute duration-1000
-            ${open ? 'top-8' : '-top-40'}
+            ${open ? 'top-14' : '-top-40'}
             `}>{links}</ul>
 
           <h3>Navber</h3>

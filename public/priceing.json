@@ -2,8 +2,9 @@
     {
         "id": 1,
         "plan": "Basic",
-        "price": "$199.99",
+        "price": "$199.99/month",
         "billingCycle": "Monthly",
+        "description": "Perfect for beginners who need access to essential gym facilities.",
         "features": [
             "Access to gym equipment",
             "Locker facility",
@@ -16,8 +17,9 @@
     {
         "id": 2,
         "plan": "Standard",
-        "price": "$499.99",
+        "price": "$499.99/month",
         "billingCycle": "Monthly",
+        "description": "Great for regular gym-goers who want group classes and extra benefits.",
         "features": [
             "All Basic features",
             "Group fitness classes (Yoga, Zumba, HIIT)",
@@ -31,8 +33,9 @@
     {
         "id": 3,
         "plan": "Premium",
-        "price": "$799.99",
+        "price": "$799.99/month",
         "billingCycle": "Monthly",
+        "description": "Best for fitness enthusiasts who want full access, training, and VIP perks.",
         "features": [
             "All Standard features",
             "Unlimited personal training sessions",
