@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { use } from 'react';
 
-const MarksData = () => {
-    return (
-        <div>
-            
-        </div>
-    );
+const MarksData = ({ marksPromise }) => {
+    const marksData = use(marksPromise);
+    const marks = marksData.data;
+    console.log(marks);
+    
+  return <div></div>;
 };
 
 export default MarksData;

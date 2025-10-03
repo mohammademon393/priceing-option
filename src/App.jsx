@@ -6,9 +6,11 @@ import { Suspense } from 'react';
 import PriceingOptions from './component/PriceingOption/PriceingOptions';
 import ReChart from './component/ReCharts/ReChart';
 import BarChats from './component/BarChat/BarChats';
+import axios from 'axios';
+import MarksData from './component/MarksData/MarksData';
 
 const pricePromise = fetch('priceing.json').then(res => res.json());
-
+const marksPromise = axios.get('marks.json')
 
 function App() {
 
@@ -29,6 +31,16 @@ function App() {
           <PriceingOptions pricePromise={pricePromise}></PriceingOptions>
         </Suspense>
 
+
+
+        <Suspense
+          fallback={
+            <span className="loading loading-spinner loading-xl"></span>
+          }
+        >
+          <MarksData marksPromise={marksPromise} key={marksPromise.id}></MarksData>
+        </Suspense>
+        
 
         <ReChart></ReChart>
         <BarChats></BarChats>
