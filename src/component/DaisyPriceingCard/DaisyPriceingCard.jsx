@@ -12,7 +12,7 @@ const DaisyPriceingCard = ({ priceing }) => {
           <h2 className="text-3xl font-bold">{plan}</h2>
           <span className="text-xl">{price}</span>
         </div>
-        <ul className="mt-6 flex flex-col gap-2 text-xs">
+        <ul className="mt-6 flex flex-col gap-2 text-xs flex-1">
           {features.map((feature, index) => (
             <li key={index}>
               <svg
@@ -33,9 +33,9 @@ const DaisyPriceingCard = ({ priceing }) => {
             </li>
           ))}
         </ul>
-      </div>
       <div className="mt-6">
         <button className="btn btn-primary btn-block">Subscribe</button>
+      </div>
       </div>
     </div>
   );
