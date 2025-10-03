@@ -2,39 +2,46 @@
     {
         "id": 1,
         "plan": "Basic",
-        "price": "30",
-        "currency": "USD",
+        "price": "$199.99",
         "billingCycle": "Monthly",
         "features": [
             "Access to gym equipment",
             "Locker facility",
-            "1 Free fitness assessment"
+            "1 Free fitness assessment",
+            "Cardio zone access",
+            "Free Wi-Fi",
+            "Access during staffed hours"
         ]
     },
     {
         "id": 2,
         "plan": "Standard",
-        "price": "50",
-        "currency": "USD",
+        "price": "$499.99",
         "billingCycle": "Monthly",
         "features": [
             "All Basic features",
-            "Group fitness classes",
+            "Group fitness classes (Yoga, Zumba, HIIT)",
             "Sauna & steam room access",
-            "2 Free personal training sessions"
+            "2 Free personal training sessions",
+            "Swimming pool access",
+            "Free protein shake once a week",
+            "Extended gym hours (6 AM – 11 PM)"
         ]
     },
     {
         "id": 3,
         "plan": "Premium",
-        "price": "80",
-        "currency": "USD",
+        "price": "$799.99",
         "billingCycle": "Monthly",
         "features": [
             "All Standard features",
             "Unlimited personal training sessions",
             "Nutrition & diet consultation",
-            "VIP lounge & recovery zone"
+            "VIP lounge & recovery zone",
+            "Massage therapy (monthly)",
+            "Priority class booking",
+            "24/7 gym access",
+            "Free gym merchandise kit"
         ]
     }
 ]
