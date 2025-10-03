@@ -78,11 +78,11 @@ const data = [
 const BarChats = () => {
     return (
       <div className="mt-10 grid justify-center">
-        <BarChart width={1000} height={500} data={data}>
+        <BarChart width={1200} height={300} data={data}>
           <XAxis dataKey={"name"}></XAxis>
           <YAxis></YAxis>
           <Bar dataKey={"math"} fill="#8884d8"></Bar>
-          <Bar dataKey={"physics"} fill="red"></Bar>
+          <Bar dataKey={"physics"} fill="skyBlue"></Bar>
           <Bar dataKey={"chemistry"} fill="violet"></Bar>
         </BarChart>
       </div>

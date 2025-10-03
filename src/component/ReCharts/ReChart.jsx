@@ -79,7 +79,7 @@ import { Line, LineChart, XAxis, YAxis } from 'recharts';
 const ReChart = () => {
     return (
       <div className='mt-5 mx-10 grid justify-center'>
-        <LineChart width={800} height={500} data={resultData}>
+        <LineChart width={1000} height={300} data={resultData}>
             <XAxis dataKey={'name'}></XAxis>
             <YAxis></YAxis>
             <Line dataKey={'math'} stroke='red'></Line>
