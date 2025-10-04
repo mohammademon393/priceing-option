@@ -82,7 +82,7 @@ const BarChats = () => {
           <XAxis dataKey={"name"}></XAxis>
           <YAxis></YAxis>
           <Bar dataKey={"math"} fill="#8884d8"></Bar>
-          <Bar dataKey={"physics"} fill="skyBlue"></Bar>
+          <Bar dataKey={"physics"} fill="yellow"></Bar>
           <Bar dataKey={"chemistry"} fill="violet"></Bar>
         </BarChart>
       </div>
